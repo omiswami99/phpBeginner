@@ -14,7 +14,7 @@ else
 	echo "Successfully connected<br>";
 }
 
-$sql = "CREATE DATABASE omi";
+$sql = "CREATE DATABASE new";
 $result = mysqli_query($conn, $sql);
 
 if(!$result)
